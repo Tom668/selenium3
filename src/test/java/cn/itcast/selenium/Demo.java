@@ -6,7 +6,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Demo {
@@ -17,7 +16,6 @@ public class Demo {
         WebDriver wd = new FirefoxDriver();
         wd.get("http://www.baidu.com");
         System.out.println("火狐浏览器启动了...");
-        Assert.assertEquals(1,2);
         wd.quit();
     }
 
