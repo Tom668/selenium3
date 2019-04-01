@@ -16,6 +16,7 @@ public class Demo {
         WebDriver wd = new FirefoxDriver();
         wd.get("http://www.baidu.com");
         System.out.println("火狐浏览器启动了");
+        wd.quit();
     }
 
     @Test
@@ -24,6 +25,7 @@ public class Demo {
         WebDriver wd = new ChromeDriver();
         wd.get("http://www.baidu.com");
         System.out.println("谷歌浏览器启动了");
+        wd.quit();
     }
 
     @Test
@@ -32,6 +34,7 @@ public class Demo {
         WebDriver wd = new InternetExplorerDriver();
         wd.get("http://www.baidu.com");
         System.out.println("IE浏览器启动了");
+        wd.quit();
     }
 
     @Test
@@ -40,6 +43,7 @@ public class Demo {
         WebDriver wd = new EdgeDriver();
         wd.get("http://www.baidu.com");
         System.out.println("edge浏览器启动了");
+        wd.quit();
     }
 
     @Test
@@ -48,5 +52,6 @@ public class Demo {
         WebDriver wd = new PhantomJSDriver();
         wd.get("http://www.baidu.com");
         System.out.println("phantomjs浏览器启动了");
+        wd.quit();
     }
 }
