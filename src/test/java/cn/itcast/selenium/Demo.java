@@ -15,7 +15,7 @@ public class Demo {
         System.setProperty("webdriver.gecko.driver", "E:\\Grid\\geckodriver.exe");
         WebDriver wd = new FirefoxDriver();
         wd.get("http://www.baidu.com");
-        System.out.println("火狐浏览器启动了");
+        System.out.println("火狐浏览器启动了...");
         wd.quit();
     }
 
@@ -24,7 +24,7 @@ public class Demo {
         System.setProperty("webdriver.chrome.driver", "E:\\Grid\\chromedriver.exe");
         WebDriver wd = new ChromeDriver();
         wd.get("http://www.baidu.com");
-        System.out.println("谷歌浏览器启动了");
+        System.out.println("谷歌浏览器启动了...");
         wd.quit();
     }
 
